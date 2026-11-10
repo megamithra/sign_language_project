@@ -1,0 +1,2 @@
+model.pkl filter=lfs diff=lfs merge=lfs -text
+sign_mnist_train.csv filter=lfs diff=lfs merge=lfs -text
