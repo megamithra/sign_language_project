@@ -1,0 +1,12 @@
+COMMIT_EDITMSG
+FETCH_HEAD
+HEAD
+ORIG_HEAD
+config
+description
+index
+*.sample
+post-checkout
+post-commit
+post-merge
+pre-push
