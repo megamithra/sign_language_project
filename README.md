@@ -87,6 +87,10 @@ The trained model is saved as `model.pkl`.
 - Support for multiple sign languages
 - Mobile application integration
 
+- ## Project Screenshot
+
+![Sign Language Recognition Dashboard](images/dashboard.png)
+
 ## Author
 
 **Megamithra**
