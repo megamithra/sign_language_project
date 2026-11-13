@@ -1,25 +1,31 @@
-AI-Based Sign Language Recognition System
+# AI-Based Sign Language Recognition System
+
 An AI-powered application that recognizes hand signs and converts them into readable text, helping improve communication between people with hearing or speech impairments and others.
 
-Features
-Real-time sign recognition using a webcam
-Hand gesture recognition using a machine learning model
-Sign-to-text conversion
-Sentence formation from recognized signs
-Interactive web interface using Streamlit
-Model training using the Sign Language MNIST dataset
-Technologies Used
-Python
-Streamlit
-OpenCV
-NumPy
-Pandas
-Scikit-learn
-MediaPipe
-Pillow
-Project Structure
+## Features
+
+- Real-time sign recognition using a webcam
+- Hand gesture recognition using a machine learning model
+- Sign-to-text conversion
+- Sentence formation from recognized signs
+- Interactive web interface using Streamlit
+- Model training using the Sign Language MNIST dataset
+
+## Technologies Used
+
+- Python
+- Streamlit
+- OpenCV
+- NumPy
+- Pandas
+- Scikit-learn
+- MediaPipe
+- Pillow
+
+## Project Structure
+
+```text
 sign_language_project/
-│
 ├── app.py
 ├── data_collection.py
 ├── train_model.py
@@ -30,40 +36,57 @@ sign_language_project/
 ├── sign_mnist_test.csv
 ├── requirements.txt
 └── README.md
-Installation
-Clone the repository:
-git clone https://github.com/megamithra/sign_language_project.git
-Navigate to the project directory:
-cd sign_language_project
-Install dependencies:
-pip install -r requirements.txt
-Run the Application
-Start the Streamlit application:
+```
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/megamithra/sign_language_project.git
+cd sign_language_project
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Application
+
+```bash
 streamlit run app.py
+```
+
 Open the local URL displayed in your terminal.
 
-Model Training
-To train the machine learning model:
+## Model Training
 
+```bash
 python train_model.py
-The trained model is saved as model.pkl.
+```
 
-Future Improvements
-Support for more sign language gestures
+The trained model is saved as `model.pkl`.
 
-Improved recognition accuracy
+## Future Improvements
 
-Real-time sentence prediction
+- Support for more sign language gestures
+- Improved recognition accuracy
+- Real-time sentence prediction
+- Support for multiple sign languages
+- Mobile application integration
 
-Support for multiple sign languages
+## Dashboard Preview
 
-Mobile application integration
+![Project Dashboard](dashboard.png)
 
-Dashboard Preview
-Project Dashboard
+## Author
 
-Author
-Megamithra
+**Megamithra**
 
 GitHub: https://github.com/megamithra
+
+---
+
+*Developed as an AI and Machine Learning project.*
